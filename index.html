@@ -1,16 +1,73 @@
-<head></head>
+<!-- Estoy siguiendo este tutorial
+ https://www.youtube.com/watch?v=MJkdaVFHrto
+ Voy por 46:10 -->
 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aprendiendo HTML</title>
+</head>
 <body>
+    <form>
+        <!--Aqui estoy haciendo un formulario.
+        Se usa label para esto. for e id 0son (hata donde se ahora) para hacer que cuando le clickee en el nombre del formulario vaya directamente al cuadro de texto.-->
+        <label for="Nombre">Nombre</label>
+        <input id="Nombre" type="text" name="Nombre" placeholder="Tu nombre y tal. Esto no se manda a ningun sitio ;)"/>
+        <!--En input, for hace referencia al id que hemos abierto
+        type cambia el tipo que va a tener 
+        name crea un valor que luego podemos guardar
+        placeholder le pone texto dentro (si es por ejemplo type text le pone un texto dentro del cambpo)-->
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input id="Apellido" type="text" name="Nombre" placeholder="Pon aqui tu puto apellido para que te robe los datos y se los mande a bezos"/>
 
-    <h1>Hola mundo.</h1>
+        <br>
+        <br>
 
-    <p>Estoy haciendo una web :)</p>
+        <label for="Comentario">Comentario</label>
+        <br>
+        <textarea rows="6" cols="66" id="comentario" placeholder="Sugerencias y tal" name="Comentario"></textarea>
+
+        <br>
+        <input type="submit" />
+
+    </form>
 
 
-    <p>Probando a ver que tan rapido se actualiza.</p>
+    <h1>Estoy haciendo una pagina web!</h1>
+
+    <p>La p es la etiqueta de parrafo</p>
+
+    <hr>
+
+    <h2>Al parecer con h1, h2 y tal se hacen los titulos, en plan notion</h2>
+
+    <P>Lo mejor para los parrafos es ir añadiendo p's</P>
+
+    <h3>Para dividir es hr</h3>
+
+    <hr>
+
+    <p>Ahora voy a probar <span style="color: blue;">la etiqueta de span</span>, que al parecer 
+        <br>sirve para hacer referencias del texto mas adelante, y para mierdas como lo del color  </p> <!--La br sirve para hacer saltos de parrafo-->
+
+        <a target="_blank" href="https://www.blender.org/download/release/Blender4.2/blender-4.2.1-linux-x64.tar.xz/">Pulsa para descargar blender (ya que estaba probando la etiqueta a mejor poner algo util xD)</a>
+        <!--a sirve para poner un link, en href pongo el link entre las comillas y con target=blank estoy haciendo que en vez de abrir en nuesta misma pagina me abra el link en una pagina nueva-->
+        <br>
+        <!--<br> te pone un salto de linea-->
+        <br>
+
+        <img src="images/olrait.jpg" width="400" height="400" />
+        <!--Con IMG ponemos imagenes. Despues de src="" puedo poner un link o directamente hacer referencia a un archivo dentro de la misma carpeta
+        
+        Con width o height y poniendole los pixeles le puedo cambiar el tamaño
+        
+        Si le pones solo uno de los dos reescala la imagen sin cambiar proporciones, si le pongo los dos valores fuerza la redimension. Esto no se hace ¬¬-->
 
 
+    <!--Para poner comentarios-->
 
-    <p>Pues si tarda un poco, pero no biggie.</p>
 
 </body>
+</html>
