@@ -1,37 +1,104 @@
-<!-- Estoy siguiendo este tutorial
- https://www.youtube.com/watch?v=MJkdaVFHrto
- Voy por 46:10 -->
-
-
 <!DOCTYPE html>
 <html>
+    
+
+
 <head>
     <title>Aprendiendo HTML</title>
+    <style>
+        table, th, td 
+        {
+            border: 1px solid black;
+        }
+    </style>
 </head>
+
+
+
 <body>
-    <form>
+
+    <table style="width: 400px;">
+        <thead>
+            <tr>
+               <th>Precio</th>
+               <th>Producto</th>
+          </tr>
+        </thead>
+        <tbody>
+                    <tr>
+            <td>Hola beats</td>
+            <td>Gratis</td>
+        </tr>
+        <tr>
+            <td>Un porratzo</td>
+            <td>No gratis</td>
+        </tr>
+        <tr>
+            <td>Un porrazo enorme que flipas con mucho verde y texto y cosas fantasticas</td>
+            <td>Super Gratis</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>mucho</td>
+        </tfoot>
+    </table>
+
+
+
+    <!--UL es lista no ordenada-->
+    <ul>
+        <li>Primeira coixa</li>
+        <li>Segunda coixa</li>
+        <li>Terceira coixa</li>
+        <li>Quarta coixa</li>
+    </ul>
+
+
+    <!--OL es lista ordenada-->
+    <ol>
+        <li value="50">Alguna coixa</li>
+        <li>Alguna coixa</li>
+        <li>Alguna coixa</li>
+        <li>Alguna coixa</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-greek">Subnorelemento 1</li>
+                <li style="list-style-type: lower-greek;">Subnorelemento 2</li>
+                <li style="list-style-type: lower-greek;">Subnorelemento 3</li>
+                <li style="list-style-type: lower-greek;">Subnorelemento 4</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario" method="post">
         <!--Aqui estoy haciendo un formulario.
         Se usa label para esto. for e id 0son (hata donde se ahora) para hacer que cuando le clickee en el nombre del formulario vaya directamente al cuadro de texto.-->
+
         <label for="Nombre">Nombre</label>
-        <input id="Nombre" type="text" name="Nombre" placeholder="Tu nombre y tal. Esto no se manda a ningun sitio ;)"/>
+        <input id="Nombre" type="text" name="nombre" placeholder="Tu nombre y tal. Esto no se manda a ningun sitio ;)"/>
+
         <!--En input, for hace referencia al id que hemos abierto
         type cambia el tipo que va a tener 
         name crea un valor que luego podemos guardar
         placeholder le pone texto dentro (si es por ejemplo type text le pone un texto dentro del cambpo)-->
+
         <br>
         <label for="Apellido">Apellido</label>
-        <input id="Apellido" type="text" name="Nombre" placeholder="Pon aqui tu puto apellido para que te robe los datos y se los mande a bezos"/>
+        <input id="Apellido" type="text" name="apellido" placeholder="Pon aqui tu puto apellido para que te robe los datos y se los mande a bezos"/>
 
         <br>
         <br>
 
-        <label for="Comentario">Comentario</label>
+        <label for="comentario">Comentario</label>
         <br>
-        <textarea rows="6" cols="66" id="comentario" placeholder="Sugerencias y tal" name="Comentario"></textarea>
+        <textarea rows="4" cols="44" id="comentario" placeholder="Sugerencias y tal y cual, pascual me es igual" name="comentario"></textarea>
 
         <br>
-        <input type="submit" />
-
+        <button type="button"><img src="/images/olrait.jpg" boton</button>
+        <button type="submit">Tipo submit</button>
+        <button type="reset"> Tipo reset</button>
     </form>
 
 
@@ -41,7 +108,7 @@
 
     <hr>
 
-    <h2>Al parecer con h1, h2 y tal se hacen los titulos, en plan notion</h2>
+    <h2>Al parecer con h1, h2 y tal se hacen los titulos, en plan notion o logseq</h2>
 
     <P>Lo mejor para los parrafos es ir añadiendo p's</P>
 
@@ -58,7 +125,7 @@
         <!--<br> te pone un salto de linea-->
         <br>
 
-        <img src="images/olrait.jpg" width="400" height="400" />
+        <img src="images/olrait.jpg" width="400" />
         <!--Con IMG ponemos imagenes. Despues de src="" puedo poner un link o directamente hacer referencia a un archivo dentro de la misma carpeta
         
         Con width o height y poniendole los pixeles le puedo cambiar el tamaño
