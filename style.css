@@ -1,10 +1,20 @@
+/*
+Teoria de esto:
+
+# hace referencia a una ID
+
+. hace referencia a una clase 
+
+*/
+
+
 #titulo  
 {
     color: blueviolet;
 }
 
 
-p
+p .texto
 {
     color: rgb(236, 93, 16);
 }
