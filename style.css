@@ -26,6 +26,12 @@ div h2, div h3
 * 
 {
     font-size: 24px;
+    color: black;
+}
+
+.color 
+{
+    color: #f030f5;
 }
 
 /* Teoria de esto:
