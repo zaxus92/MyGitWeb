@@ -1,13 +1,3 @@
-/*
-Teoria de esto:
-
-# hace referencia a una ID
-
-. hace referencia a una clase 
-
-*/
-
-
 #titulo  
 {
     color: aqua;
@@ -18,3 +8,11 @@ p .texto
 {
     color: orangered;
 }
+
+/* Teoria de esto:
+
+# hace referencia a una ID
+
+. hace referencia a una clase 
+
+*/
