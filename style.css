@@ -1,6 +1,11 @@
 #titulo  
 {
     color: aqua;
+    /* border: 5px brown outset; */
+    border-style: outset;
+    border-color: blueviolet;
+    border-radius: 3px;
+    border-width: 2em;
 }
 
 p.texto
@@ -23,15 +28,15 @@ div h2, div h3
     color: brown;   
 }
 
-* 
+/** 
 {
     font-size: 24px;
     color: black;
-}
+}*/
 
 .color 
 {
-    color: #f030f5;
+    border: 5px brown dashed;
 }
 
 /* Teoria de esto:
