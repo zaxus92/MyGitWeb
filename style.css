@@ -4,9 +4,14 @@
 }
 
 
-p .texto
+p.texto
 {
     color: orangered;
+}
+
+p.especial
+{
+    color: chartreuse;
 }
 
 /* Teoria de esto:
