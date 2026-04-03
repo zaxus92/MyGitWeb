@@ -5,7 +5,7 @@
     border-style: outset;
     border-color: blueviolet;
     border-radius: 3px;
-    border-width: 2em;
+    border-width: 2px;
 }
 
 p.texto
@@ -36,8 +36,39 @@ div h2, div h3
 
 .color 
 {
-    border: 5px brown dashed;
+    color: #D4113E;
+    /* border: 5px #369A83 solid; */
+
+    border-style: solid;
+    border-color: #1EF0C1;
+    border-radius: 5px;
+    border-width: 1rem;
+
+
+
+    /* Tipos de borde
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hiden */
 }
+
+#fondo
+{
+    background-color: rgb(53, 89, 91); 
+    color: #D4113E;
+    background-image: url("images/image.jpg");
+    height: 800px;
+}
+
+
+
 
 /* Teoria de esto:
 
