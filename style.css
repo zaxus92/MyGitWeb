@@ -64,7 +64,10 @@ div h2, div h3
     background-color: rgb(53, 89, 91); 
     color: #D4113E;
     background-image: url("images/image.jpg");
-    height: 800px;
+    height: 200px;
+    background-size: 200px, 200px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
