@@ -12,4 +12,4 @@ https://zaxus92.github.io/MyGitWeb/
  Guardado en archivo comprimido.
 
  CSS Basico
- https://www.youtube.com/watch?v=wZniZEbPAzk : 25:47
+ https://www.youtube.com/watch?v=wZniZEbPAzk : 56:11
